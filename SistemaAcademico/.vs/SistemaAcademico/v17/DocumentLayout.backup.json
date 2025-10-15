@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\c#proyectos\\SistemaAcademico\\",
+  "WorkspaceRootPath": "C:\\c#proyectos\\Parcial2\\SistemaAcademico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05764107-7B92-420A-913B-B1B81D7D8C1C}|SistemaAcademico.csproj|c:\\c#proyectos\\sistemaacademico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05764107-7B92-420A-913B-B1B81D7D8C1C}|SistemaAcademico.csproj|c:\\c#proyectos\\parcial2\\sistemaacademico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05764107-7B92-420A-913B-B1B81D7D8C1C}|SistemaAcademico.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\c#proyectos\\SistemaAcademico\\Program.cs",
+              "DocumentMoniker": "C:\\c#proyectos\\Parcial2\\SistemaAcademico\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\c#proyectos\\SistemaAcademico\\Program.cs",
+              "ToolTip": "C:\\c#proyectos\\Parcial2\\SistemaAcademico\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T15:34:00.311Z",
               "EditorCaption": ""

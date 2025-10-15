@@ -113,11 +113,11 @@ public class Materia : IMostrable{
 
     public int Creditos
     {
-        get; set; } // (> 0)
+        get { return creditos; } set { if (value > 0) creditos = value; } } // (> 0)
 
-    public int Cupos { get; set; } // (≥ 0)
+    public int Cupos { get { return cupos; } set { if (value >= 0) cupos = value; } } // (≥ 0)
 
-    public int Inscritos { get; set; } // (≥ 0, ≤ Cupos)
+    public int Inscritos { get { return cupos;  } set { if (value >= 0 && value <= Cupos) cupos = value; } } // (≥ 0, ≤ Cupos)
 
     // Constructores
 
@@ -159,7 +159,7 @@ public class Calificacion : IMostrable
 
     private Materia materia;
 
-    private double nota; //(rango 0–100)
+    private double nota;
 
     // Propiedades
 
@@ -167,7 +167,7 @@ public class Calificacion : IMostrable
 
     public Materia Materia { get; set; }
 
-    public double Nota { get; set; } //(0 ≤ Nota ≤ 100)
+    public double Nota { get { return nota; } set { if (value >= 0 && value <= 100) nota = value; } } //(0 ≤ Nota ≤ 100)
 
     // Constructor
 
@@ -200,7 +200,15 @@ public class EstudianteBecado : Estudiante{
 
     //  Propiedad
 
-    public double PorcentajeBeca { get; set; } //(0 ≤ valor ≤ 100)
+    public double PorcentajeBeca { 
+        get {
+            return porcentajeBeca;
+        } set {
+            if (value > 0) {
+                porcentajeBeca = value;
+            }
+                
+        } } //(0 ≤ valor ≤ 100)
 
     // Constructor
     public EstudianteBecado(string nombre, string id, string carrera, double PorcentajeBeca) : base(nombre, id, carrera)
